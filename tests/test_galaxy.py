@@ -20,4 +20,4 @@ def test_galaxy(driver):
 
     print(f"\nGALAXY PRICE = {price}")
 
-    product.add_to_cart()
+    product.add_to_cart_samsung()

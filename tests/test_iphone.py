@@ -20,4 +20,4 @@ def test_iphone(driver):
 
     print(f"\nIPHONE PRICE = {price}")
 
-    product.add_to_cart()
+    product.add_to_cart_iphone()

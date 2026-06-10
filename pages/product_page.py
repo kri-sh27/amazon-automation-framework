@@ -10,10 +10,18 @@ class ProductPage(BasePage):
             LocatorReader.get("product.price")
         )
 
-    def add_to_cart(self):
+    def add_to_cart_iphone(self):
 
         self.click(
             LocatorReader.get(
-                "product.add_to_cart"
+                "product.add_to_cart_iphone"
+            )
+        )
+
+    def add_to_cart_samsung(self):
+
+        self.click(
+            LocatorReader.get(
+                "product.add_to_cart_samsung"
             )
         )
