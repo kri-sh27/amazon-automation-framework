@@ -335,6 +335,26 @@ Benefits:
 
 ---
 
+
+## LambdaTest Cloud Execution
+
+The framework supports execution on LambdaTest Selenium Grid.
+
+Features:
+- Cloud-based browser execution
+- Cross-browser compatibility testing
+- Parallel execution
+- Remote test monitoring
+- Scalable infrastructure
+
+Run:
+
+pytest -n 2
+
+The tests will execute in parallel on LambdaTest Cloud.
+
+---
+
 # Future Enhancements
 
 * Data Driven Testing
